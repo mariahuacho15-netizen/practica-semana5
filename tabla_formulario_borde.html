@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Formulario combinado con una tabla</title>
+</head>
+<body>
+    <h1>Uso de una tabla para alinear un formulario</h1>
+    <hr>
+    <p><b>Programado por: </b>[escribe tu nombre aquí]</p>
+    <form method="get">
+        <table border="1">
+            <tr><td>Nombre del alumno: </td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr><td>Apellido paterno: </td>
+                <td><input type="text" name="apellido_p"></td>
+            </tr>
+            <tr><td>Apellido materno: </td>
+                <td><input type="text" name="apellido_m"></td>
+            </tr>
+            <tr><td>Correo electrónico: </td>
+                <td><input type="text" name="correo"></td>
+            </tr>
+            <tr><td>Edad: </td>
+                <td><input type="text" name="edad"></td>
+            </tr>
+            <tr><td>Escuela: </td>
+                <td><select name="escuela">
+                        <option value="cbtis166">cbtis 166</option>
+                        <option value="cbtis94">cbtis 94</option>
+                        <option value="cbtis223">cbtis 223</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>Municipio: </td>
+                <td><select name="municipio">
+                        <option value="Cuernavaca">Cuernavaca</option>
+                        <option value="Jiutepec">Jiutepec</option>
+                        <option value="Zapata">Emiliano Zapata</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>Comentarios: </td>
+                <td>
+                    <textarea cols="20" rows="6" name="comentarios"></textarea>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Enviar datos" />
+    </form>
+</body>
+</html>

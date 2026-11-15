@@ -1,0 +1,67 @@
+/* 2. Contenedor y logotipo */
+.contenedor {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe3ec;
+    padding: 1em;
+}
+.contenedor-logo {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 3. Título y subtítulo */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2a65a;
+}
+h2 {
+    text-align: center;
+}
+
+/* 4. Formulario a dos columnas */
+.cuadro-azul {
+    float: left;
+    width: 45%;
+    height: 220px;
+    background-color: #a2cff0;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+.cuadro-azul table {
+    width: 100%;
+    border-spacing: 20px;
+}
+.cuadro-azul table tr {
+    padding: 10px;
+}
+.dato {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #a2cff0;
+    border-radius: 5px;
+}
+
+/* 5. Botón para hacer pedido */
+.contenedor-enviar {
+    clear: both;            /* baja el botón debajo de las dos columnas */
+    text-align: center;
+    padding-top: 10px;
+}
+.contenedor-enviar input {
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 6. Pie de página */
+.pie {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2a65a;
+    margin-top: 20px;
+}
